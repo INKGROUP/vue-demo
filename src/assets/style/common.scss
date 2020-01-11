@@ -1,0 +1,76 @@
+// color
+$color-black : #333;
+$color-primary : #3399ff;
+$color-error : #f56c6c;
+$color-sub : #999;
+$color-assist : rgba($color-sub, 0.6);
+$color-divider : #ddd;
+$color-warning : #ff9900;
+$color-danger : #ff0000;
+$color-star : #f5a623;
+$color-placeholder : rgba(0, 0, 0, 0.4);
+$color-background : #f7f7f7;
+
+// 命名规范 属性-用处-重要程度-位置
+// update  g代表全局（global）  p代表局部（part）, w代表较弱（weaker），c代表一般（common），i代表重要（important）
+$color-bg-w-g: #181A24; //背景色，全局背景颜色。如：首页背景颜色。
+$color-bg-w-p: #232531; //背景色，用于栏目版块卡片背景颜色；如：自选页面三大指数背景；
+$color-title-c-p: #EFEDFF; //文字色，用于栏目文章标题等重要文字；如：导航栏标题、文章详情页标题等
+$color-cont-c-p: #A1A4B4; // 文字色，用于次要文字内容；如：文章正文内容；
+$color-txt-c-p: #676A7D; // 文字色，用于辅助文字内容等；如：文章发布时间、消息描述内容；
+$color-brand-i-p: #3B74D3; // 品牌色，用于按钮图标、选中、链接等重要内容；如：交易按钮、TAB栏选中状态图标等；
+$color-fail-i-p: #F91B54; // 辅助色，用于表示涨跌、买卖以及失败等重要内容；如：股票涨跌额、买卖按钮、开户失败等；
+$color-succ-i-p: #00C38A; // 辅助色，用于表示涨跌、买卖以及失败等重要内容；如：股票涨跌额、买卖按钮、开户失败等；
+$color-warn-i-p: #FE9D32; // 辅助色，用于重要提示文案等内容。如：填写表单错误提示等。
+
+// font-size
+$font-size-default : 26px;
+$font-size-small : 24px;
+$font-size-large : 28px;
+$font-size-big : 30px;
+
+// 命名规范 属性-用处-大小
+// update ch代表中文 num代表数字 en代表字母
+$font-size-ch-xxxl: 40px;
+$font-size-ch-xxl: 36px;
+$font-size-ch-xl: 34px;
+$font-size-ch-l: 32px;
+$font-size-ch-default: 30px;
+$font-size-ch-m: 28px;
+$font-size-ch-s: 26px;
+$font-size-ch-xs: 24px;
+
+$font-size-num-xxl: 56px;
+$font-size-num-xl: 40px;
+$font-size-num-l: 32px;
+$font-size-num-default: 30px;
+$font-size-num-m: 28px;
+$font-size-num-s: 26px;
+
+
+// Border color
+$border-color-base : rgb(229, 229, 229); // outside
+$border-radius-base : 6px;
+
+// Animation
+$animation-time : .3s;
+$transition-time : .2s;
+$ease-in-out : ease-in-out;
+
+// size
+$size-height : 26px;
+
+//other
+.spe-toast {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 6px !important;
+    padding: 22px 30px !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    color: rgba(239, 237, 255, 1) !important;
+    line-height: 28px !important;
+}
+
+.spe-toast-lh {
+    line-height: 46px !important;
+}
