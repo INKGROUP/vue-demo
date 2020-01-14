@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'jui-icon';
+    src:  url('../fonts/jui-icon.eot?brifjz');
+    src:  url('../fonts/jui-icon.eot?brifjz#iefix') format('embedded-opentype'),
+    url('../fonts/jui-icon.ttf?brifjz') format('truetype'),
+    url('../fonts/jui-icon.woff?brifjz') format('woff'),
+    url('../fonts/jui-icon.svg?brifjz#jui-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="jui-icon-"], [class*=" jui-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'jui-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jui-icon-delete:before {
+    content: "\e900";
+}
+.jui-icon-delete-wrap:before {
+    content: "\e901";
+}
+.jui-icon-arrow-blod:before {
+    content: "\e902";
+}
+.jui-icon-help:before {
+    content: "\e903";
+}
+.jui-icon-photo:before {
+    content: "\e904";
+}
+.jui-icon-arrow-thin:before {
+    content: "\e906";
+}
+.jui-icon-selected:before {
+    content: "\e907";
+}
+.jui-icon-clock:before {
+    content: "\e908";
+}
+.jui-icon-badge:before {
+    content: "\e909";
+}
+.jui-icon-tip:before {
+    content: "\e90a";
+}
+.jui-icon-unselected:before {
+    content: "\e90b";
+}
+.jui-icon-eye:before {
+    content: "\e90d";
+}
+.jui-icon-write:before {
+    content: "\e90e";
+}
+.jui-icon-error:before {
+    content: "\e90f";
+}
+.jui-icon-praise:before {
+    content: "\e910";
+}

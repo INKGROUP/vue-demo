@@ -1,0 +1,7 @@
+@import "../mixins/ellipsis";
+.jui-ellipsis{
+  @include ellipsis()
+}
+.jui-multi-ellipsis{
+  @include multi-ellipsis()
+}

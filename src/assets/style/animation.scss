@@ -1,0 +1,81 @@
+//淡入
+@keyframes jui-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+//淡出
+@keyframes jui-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes jui-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes jui-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes jui-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes jui-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.jui-fade-in {
+  animation: jui-fade-in .5s forwards;
+}
+
+.jui-fade-out {
+  animation: jui-fade-out .5s forwards;
+}
+
+.jui-fade {
+  &-enter-active {
+    animation: .3s jui-fade-in;
+  }
+
+  &-leave-active {
+    animation: .3s jui-fade-out;
+  }
+}
+
+.jui-slide-left {
+  &-enter-active {
+    animation: jui-slide-left-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: jui-slide-left-leave .3s both ease;
+  }
+}
+
+.jui-slide-right {
+  &-enter-active {
+    animation: jui-slide-right-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: jui-slide-right-leave .3s both ease;
+  }
+}

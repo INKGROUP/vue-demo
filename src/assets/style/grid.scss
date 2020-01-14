@@ -1,0 +1,30 @@
+.jui-grid {
+  display: flex;
+  align-items: center;
+  font-size: inherit;
+  color: $color-primary;
+
+  .jui-column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  //两栏布局，左侧固定30%，右侧自适应
+  &.fixed-left {
+    .jui-column:first-child {
+      flex: 0 0 30%;
+    }
+
+    .jui-column:last-child {
+      text-align: right;
+    }
+  }
+
+  &.boer-top-bottom-1 {
+    .jui-column {
+      margin-top: -1px;
+      border: 1px solid $color-primary;
+      border-width: 1px 0;
+    }
+  }
+}

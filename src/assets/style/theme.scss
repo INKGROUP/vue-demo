@@ -1,0 +1,29 @@
+// color
+$color-black            : #333;
+$color-primary          : #3399ff;
+$color-error            : #f56c6c;
+$color-sub              : #999;
+$color-assist             : rgba($color-sub,0.6);
+$color-divider          : #ddd;
+$color-warning          : #ff9900;
+$color-danger           : #ff0000;
+$color-star             : #f5a623;
+$color-placeholder      : rgba(0,0,0,0.4);
+$color-background       : #f7f7f7;
+
+$font-size-default      : 26px;
+$font-size-small        : 24px;
+$font-size-large        : 28px;
+$font-size-xl           : 30;
+
+// Border color
+$border-color-base      : rgb(229, 229, 229);  // outside
+$border-radius-base     : 6px;
+
+// Animation
+$animation-time         : .3s;
+$transition-time        : .2s;
+$ease-in-out            : ease-in-out;
+
+// size
+$size-height            : 26px;
